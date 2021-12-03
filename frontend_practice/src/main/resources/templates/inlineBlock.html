@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inline-block 예제</title>
+    <style type="text/css">
+        /* display 속성이 없으면 block이 default : 행으로 배치 / 여백 있음 */
+        .greenBox {
+            display: block;
+            width: 150px;
+            height: 75px;
+            margin: 10px;
+            border: solid 3px #73AD21;
+        }
+        .yellowBox {
+            display: inline; /* 내용 만큼만 공간 차지 */
+            width: 150px;
+            height: 75px;
+            margin: 10px;
+            border: solid 3px yellow;
+        }
+        .blueBox {
+            display: inline-block; /* 옆으로 배치되고 여백 있음 */
+            width: 150px;
+            height: 75px;
+            margin: 10px;
+            border: solid 3px blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>display 속성(block / inline / inline-block)</h2>
+
+    <h5>block</h5>
+    <div class="greenBox">박스1</div>
+    <div class="greenBox">박스2</div>
+    <div class="greenBox">박스3</div>
+    <div class="greenBox">박스4</div>
+
+    <br>
+    <h5>inline</h5>
+    <div class="yellowBox">박스1</div>
+    <div class="yellowBox">박스2</div>
+    <div class="yellowBox">박스3</div>
+    <div class="yellowBox">박스4</div>
+
+    <br>
+    <h5>inline-block</h5>
+    <div class="blueBox">박스1</div>
+    <div class="blueBox">박스2</div>
+    <div class="blueBox">박스3</div>
+    <div class="blueBox">박스4</div>
+</body>
+</html>

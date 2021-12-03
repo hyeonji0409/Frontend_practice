@@ -1,0 +1,15 @@
+#stdTable {
+    margin: 0 auto;
+    border-collapse:collapse; /* 단일 경계썬 */
+}
+
+#stdTable th {color:white; background-color:purple;}
+
+#stdTable th.name {width:100px;}
+
+#stdTable th.email {width:200px;}
+
+/* 짝수 행 선택 */
+#stdTable tr:nth-child(2n) td {
+    background-color:yellow;
+}
