@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+    width:70%;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+#ctg1 {
+    display: inline-block; /* 옆으로 배치되고 여백 있음 */
+    padding: 10px;
+    width: 150px;
+}
+#ctg2 {
+    display: inline-block; /* 옆으로 배치되고 여백 있음 */
+    padding: 10px;
+    width: 150px;
+}
+#ctg3 {
+    display: inline-block; /* 옆으로 배치되고 여백 있음 */
+    padding: 10px;
+    width: 150px;
+}
+#ctg4 {
+    display: inline-block; /* 옆으로 배치되고 여백 있음 */
+    padding: 10px;
+    width: 150px;
+
+}
+
+#ctg1:hover, #ctg2:hover, #ctg3:hover, #ctg4:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.prdTable {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#price {
+    color:red;
+}
+
+img {
+    width: 230px;
+    height: 200px;
+    margin: 10px;
+}
+
+#info{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: inline-block;
+    width: 550px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+a:hover{
+    color: red;
+}
+
+

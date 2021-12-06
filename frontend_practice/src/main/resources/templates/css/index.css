@@ -1,0 +1,62 @@
+@charset "UTF-8"
+
+#wrap{
+    margin: 0 auto;
+    width:1000px;
+    background-color: white;
+    color: white;
+
+}
+
+header{
+    background-color:black;
+    color: white;
+    text-align: right;
+    padding-right:20px;
+    height:40px;
+    line-height:40px;
+}
+
+#mainMenuBox{
+    margin-top:10px;
+    margin-bottom:10px;
+    height:35px;
+    line-height:35px;
+    background-color:orange;
+    color:blue;
+    text-align:center;
+}
+
+#subMenuBox{
+    height:35px;
+    line-height:35px;
+    background-color:green;
+    color:#FF0;
+    text-align:center;
+}
+
+#slideShowBox{
+    margin-top: 10px;
+    background-color: lightblue;
+    text-align: center;
+    height:200px;
+    line-height:200px;
+}
+
+#content{
+    margin-top: 10px;
+    background-color: navy;
+    text-align: center;
+    height:500px;
+    line-height:500px;
+    color: white;
+}
+
+#companyInfo{
+    margin-top: 10px;
+    background-color: grey;
+    text-align: center;
+    height:200px;
+    line-height:200px;
+    color: yellow;
+}
